@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giám sát Camera</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        #video-stream {
+            border: 3px solid #333;
+            border-radius: 10px;
+            width: 70%;
+            max-width: 800px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Giám sát Camera</h1>
+    <img id="video-stream" src="http://localhost:5000/video" alt="Camera Stream">
+</body>
+</html>

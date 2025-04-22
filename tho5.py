@@ -4,7 +4,7 @@ import numpy as np
 # Cấu hình Camera IP (THAY THÔNG TIN ĐÚNG CỦA BẠN!)
 USERNAME = "khiem123"
 PASSWORD = "khiem123"
-IP_CAMERA = "192.168.1.17"
+IP_CAMERA = "192.168.1.19"
 PORT = "554"
 
 # URL RTSP (CẬP NHẬT THEO CAMERA CỦA BẠN)
@@ -24,8 +24,8 @@ if not ret:
     cap.release()
     exit()
 
-frame1 = cv2.cvtColor(frame1, cv2.COLOR_BGR2GRAY)
-frame1 = cv2.GaussianBlur(frame1, (21, 21), 0)
+
+
 
 while True:
     # Đọc frame tiếp theo
@@ -66,4 +66,6 @@ while True:
 
 # Giải phóng camera
 cap.release()
+
+
 cv2.destroyAllWindows()

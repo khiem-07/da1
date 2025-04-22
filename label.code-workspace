@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "label",
+			"path": "../label"
+		},
+		{
+			"name": "XuLyAnh",
+			"path": "."
+		},
+		{
+			"name": "input",
+			"path": "../input"
+		}
+	],
+	"settings": {}
+}

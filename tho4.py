@@ -9,7 +9,7 @@ app = Flask(__name__)
 # Cấu hình Camera IP
 USERNAME = "khiem123"
 PASSWORD = "khiem123"
-IP_CAMERA = "192.168.1.19"
+IP_CAMERA = "192.168.1.17"
 PORT = "554"
 
 # URL RTSP của Camera
